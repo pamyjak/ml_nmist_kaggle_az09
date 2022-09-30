@@ -1,0 +1,167 @@
+$ python3 train_model.py --az KaggleAZ/Kaggle_AZ_Data.csv --model learning.model
+2022-04-16 17:16:16.355837: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-04-16 17:16:16.356306: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have 
+a GPU set up on your machine.
+[INFO] loading datasets...
+[INFO] compiling model...
+2022-04-16 17:17:24.442129: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2022-04-16 17:17:24.442581: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Leviathan): /proc/driver/nvidia/version does not exist
+2022-04-16 17:17:24.453819: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA       
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-16 17:17:24.654321: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 1449820160 exceeds 10% of free system memory.
+2022-04-16 17:17:35.388649: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 101940480 exceeds 10% of free system memory.
+Epoch 1/50
+2764/2766 [============================>.] - ETA: 0s - loss: 1.2930 - accuracy: 0.90562022-04-16 17:19:41.658787: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 362459136 exceeds 10% of free system memory.
+2766/2766 [==============================] - 130s 44ms/step - loss: 1.2927 - accuracy: 0.9056 - val_loss: 0.1678 - val_accuracy: 0.9518
+Epoch 2/50
+2766/2766 [==============================] - 68s 25ms/step - loss: 0.5808 - accuracy: 0.9517 - val_loss: 0.2011 - val_accuracy: 0.9267
+Epoch 3/50
+2766/2766 [==============================] - 65s 23ms/step - loss: 0.4940 - accuracy: 0.9581 - val_loss: 0.1371 - val_accuracy: 0.9594
+Epoch 4/50
+2766/2766 [==============================] - 62s 22ms/step - loss: 0.4508 - accuracy: 0.9615 - val_loss: 0.1514 - val_accuracy: 0.9508
+Epoch 5/50
+2766/2766 [==============================] - 66s 24ms/step - loss: 0.4230 - accuracy: 0.9634 - val_loss: 0.1209 - val_accuracy: 0.9653
+Epoch 6/50
+2766/2766 [==============================] - 71s 26ms/step - loss: 0.4039 - accuracy: 0.9651 - val_loss: 0.1229 - val_accuracy: 0.9640
+Epoch 7/50
+2766/2766 [==============================] - 72s 26ms/step - loss: 0.3893 - accuracy: 0.9663 - val_loss: 0.1349 - val_accuracy: 0.9578
+Epoch 8/50
+2766/2766 [==============================] - 73s 27ms/step - loss: 0.3774 - accuracy: 0.9672 - val_loss: 0.1261 - val_accuracy: 0.9615
+Epoch 9/50
+2766/2766 [==============================] - 72s 26ms/step - loss: 0.3676 - accuracy: 0.9680 - val_loss: 0.1162 - val_accuracy: 0.9668
+Epoch 10/50
+2766/2766 [==============================] - 65s 24ms/step - loss: 0.3597 - accuracy: 0.9687 - val_loss: 0.1202 - val_accuracy: 0.9648
+Epoch 11/50
+2766/2766 [==============================] - 66s 24ms/step - loss: 0.3526 - accuracy: 0.9690 - val_loss: 0.1237 - val_accuracy: 0.9623
+Epoch 12/50
+2766/2766 [==============================] - 64s 23ms/step - loss: 0.3465 - accuracy: 0.9692 - val_loss: 0.1219 - val_accuracy: 0.9631
+Epoch 13/50
+2766/2766 [==============================] - 64s 23ms/step - loss: 0.3409 - accuracy: 0.9696 - val_loss: 0.1301 - val_accuracy: 0.9583
+Epoch 14/50
+2766/2766 [==============================] - 67s 24ms/step - loss: 0.3360 - accuracy: 0.9700 - val_loss: 0.1162 - val_accuracy: 0.9656
+Epoch 15/50
+2766/2766 [==============================] - 65s 24ms/step - loss: 0.3315 - accuracy: 0.9704 - val_loss: 0.1181 - val_accuracy: 0.9648
+Epoch 16/50
+2766/2766 [==============================] - 65s 24ms/step - loss: 0.3274 - accuracy: 0.9707 - val_loss: 0.1225 - val_accuracy: 0.9619
+Epoch 17/50
+2766/2766 [==============================] - 61s 22ms/step - loss: 0.3238 - accuracy: 0.9709 - val_loss: 0.1188 - val_accuracy: 0.9639
+Epoch 18/50
+2766/2766 [==============================] - 60s 22ms/step - loss: 0.3204 - accuracy: 0.9712 - val_loss: 0.1172 - val_accuracy: 0.9646
+Epoch 19/50
+2766/2766 [==============================] - 61s 22ms/step - loss: 0.3170 - accuracy: 0.9716 - val_loss: 0.1130 - val_accuracy: 0.9667
+Epoch 20/50
+2766/2766 [==============================] - 60s 22ms/step - loss: 0.3142 - accuracy: 0.9719 - val_loss: 0.1166 - val_accuracy: 0.9650
+Epoch 21/50
+2766/2766 [==============================] - 58s 21ms/step - loss: 0.3116 - accuracy: 0.9719 - val_loss: 0.1187 - val_accuracy: 0.9637
+Epoch 22/50
+2766/2766 [==============================] - 57s 21ms/step - loss: 0.3089 - accuracy: 0.9722 - val_loss: 0.1160 - val_accuracy: 0.9650
+Epoch 23/50
+2766/2766 [==============================] - 59s 21ms/step - loss: 0.3065 - accuracy: 0.9722 - val_loss: 0.1171 - val_accuracy: 0.9646
+Epoch 24/50
+2766/2766 [==============================] - 59s 21ms/step - loss: 0.3043 - accuracy: 0.9725 - val_loss: 0.1182 - val_accuracy: 0.9638
+Epoch 25/50
+2766/2766 [==============================] - 59s 21ms/step - loss: 0.3020 - accuracy: 0.9728 - val_loss: 0.1153 - val_accuracy: 0.9652
+Epoch 26/50
+2766/2766 [==============================] - 60s 22ms/step - loss: 0.3000 - accuracy: 0.9728 - val_loss: 0.1209 - val_accuracy: 0.9621
+Epoch 27/50
+2766/2766 [==============================] - 60s 22ms/step - loss: 0.2981 - accuracy: 0.9730 - val_loss: 0.1186 - val_accuracy: 0.9636
+Epoch 28/50
+2766/2766 [==============================] - 60s 22ms/step - loss: 0.2963 - accuracy: 0.9731 - val_loss: 0.1127 - val_accuracy: 0.9663
+Epoch 29/50
+2766/2766 [==============================] - 61s 22ms/step - loss: 0.2945 - accuracy: 0.9733 - val_loss: 0.1147 - val_accuracy: 0.9654
+Epoch 30/50
+2766/2766 [==============================] - 62s 22ms/step - loss: 0.2928 - accuracy: 0.9734 - val_loss: 0.1113 - val_accuracy: 0.9669
+Epoch 31/50
+2766/2766 [==============================] - 61s 22ms/step - loss: 0.2913 - accuracy: 0.9735 - val_loss: 0.1115 - val_accuracy: 0.9664
+Epoch 32/50
+2766/2766 [==============================] - 59s 21ms/step - loss: 0.2897 - accuracy: 0.9736 - val_loss: 0.1150 - val_accuracy: 0.9651
+Epoch 33/50
+2766/2766 [==============================] - 62s 22ms/step - loss: 0.2881 - accuracy: 0.9738 - val_loss: 0.1182 - val_accuracy: 0.9633
+Epoch 34/50
+2766/2766 [==============================] - 62s 22ms/step - loss: 0.2867 - accuracy: 0.9738 - val_loss: 0.1154 - val_accuracy: 0.9649
+Epoch 35/50
+2766/2766 [==============================] - 61s 22ms/step - loss: 0.2855 - accuracy: 0.9740 - val_loss: 0.1124 - val_accuracy: 0.9661
+Epoch 36/50
+2766/2766 [==============================] - 61s 22ms/step - loss: 0.2841 - accuracy: 0.9741 - val_loss: 0.1144 - val_accuracy: 0.9655
+Epoch 37/50
+2766/2766 [==============================] - 59s 21ms/step - loss: 0.2829 - accuracy: 0.9742 - val_loss: 0.1123 - val_accuracy: 0.9663
+Epoch 38/50
+2766/2766 [==============================] - 60s 22ms/step - loss: 0.2815 - accuracy: 0.9743 - val_loss: 0.1131 - val_accuracy: 0.9660
+Epoch 39/50
+2766/2766 [==============================] - 61s 22ms/step - loss: 0.2804 - accuracy: 0.9744 - val_loss: 0.1111 - val_accuracy: 0.9667
+Epoch 40/50
+2766/2766 [==============================] - 58s 21ms/step - loss: 0.2793 - accuracy: 0.9744 - val_loss: 0.1058 - val_accuracy: 0.9694
+Epoch 41/50
+2766/2766 [==============================] - 61s 22ms/step - loss: 0.2782 - accuracy: 0.9746 - val_loss: 0.1117 - val_accuracy: 0.9666
+Epoch 42/50
+2766/2766 [==============================] - 59s 21ms/step - loss: 0.2772 - accuracy: 0.9746 - val_loss: 0.1115 - val_accuracy: 0.9667
+Epoch 43/50
+2766/2766 [==============================] - 58s 21ms/step - loss: 0.2761 - accuracy: 0.9746 - val_loss: 0.1168 - val_accuracy: 0.9640
+Epoch 44/50
+2766/2766 [==============================] - 58s 21ms/step - loss: 0.2751 - accuracy: 0.9747 - val_loss: 0.1127 - val_accuracy: 0.9658
+Epoch 45/50
+2766/2766 [==============================] - 60s 22ms/step - loss: 0.2741 - accuracy: 0.9748 - val_loss: 0.1098 - val_accuracy: 0.9670
+Epoch 46/50
+2766/2766 [==============================] - 58s 21ms/step - loss: 0.2732 - accuracy: 0.9750 - val_loss: 0.1114 - val_accuracy: 0.9665
+Epoch 47/50
+2766/2766 [==============================] - 58s 21ms/step - loss: 0.2723 - accuracy: 0.9750 - val_loss: 0.1118 - val_accuracy: 0.9662
+Epoch 48/50
+2766/2766 [==============================] - 59s 21ms/step - loss: 0.2713 - accuracy: 0.9751 - val_loss: 0.1131 - val_accuracy: 0.9657
+Epoch 49/50
+2766/2766 [==============================] - 58s 21ms/step - loss: 0.2704 - accuracy: 0.9751 - val_loss: 0.1103 - val_accuracy: 0.9669
+Epoch 50/50
+2766/2766 [==============================] - 57s 21ms/step - loss: 0.2696 - accuracy: 0.9752 - val_loss: 0.1103 - val_accuracy: 0.9668
+[INFO] evaluating network...
+2022-04-16 18:10:16.438105: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 362459136 exceeds 10% of free system memory.
+               precision    recall   f1-score   tests
+
+           0       0.59      0.86      0.70      1381
+           1       0.98      0.99      0.98      1575
+           2       0.96      0.96      0.96      1398
+           3       0.98      0.98      0.98      1428
+           4       0.97      0.97      0.97      1365
+           5       0.91      0.95      0.93      1263
+           6       0.99      0.98      0.99      1375
+           7       0.98      0.98      0.98      1459
+           8       0.95      0.97      0.96      1365
+           9       0.98      0.97      0.97      1392
+           A       0.98      0.98      0.98      2774
+           B       0.97      0.97      0.97      1734
+           C       0.98      0.98      0.98      4682
+           D       0.92      0.98      0.95      2027
+           E       0.99      0.98      0.98      2288
+           F       0.95      0.99      0.97       232
+           G       0.95      0.98      0.97      1152
+           H       0.94      0.97      0.96      1444
+           I       0.96      0.98      0.97       224
+           J       0.94      0.97      0.96      1699
+           K       0.95      0.97      0.96      1121
+           L       0.97      0.99      0.98      2317
+           M       0.98      0.99      0.99      2467
+           N       0.98      0.98      0.98      3802
+           O       0.98      0.91      0.94     11565
+           P       0.99      0.99      0.99      3868
+           Q       0.95      0.98      0.97      1162
+           R       0.99      0.97      0.98      2313
+           S       0.99      0.97      0.98      9684
+           T       0.99      0.99      0.99      4499
+           U       0.98      0.98      0.98      5802
+           V       0.97      0.99      0.98       836
+           W       0.98      0.97      0.98      2157
+           X       0.98      0.98      0.98      1254
+           Y       0.97      0.98      0.98      2172
+           Z       0.96      0.97      0.97      1215
+
+    accuracy                           0.97     88491
+   macro avg       0.96      0.97      0.96     88491
+weighted avg       0.97      0.97      0.97     88491
+
+[INFO] serializing network...
+qt.qpa.xcb: could not connect to display 
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "/home/pamyjak/.local/lib/python3.8/site-packages/cv2/qt/plugins" 
+even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: xcb.
+
+Aborted (core dumped)
